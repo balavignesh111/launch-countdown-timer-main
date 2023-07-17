@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+:root{
+  --var-clr-Grayish-blue: hsl(237, 18%, 59%);
+  --var-clr-Soft-red: hsl(345, 95%, 68%);
+  --var-clr-White: hsl(0, 0%, 100%);
+  --var-clr-Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --var-clr-Very-dark-blue: hsl(235, 16%, 14%);
+  --var-clr-Very-dark-mostlyBlack: hsl(234, 17%, 12%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 14px;
+}
+
+body{
+  font-family: 'Red Hat Text', sans-serif;
+  background-image: url('../images/bg-stars.svg');
+  background-repeat: no-repeat;
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* timer-container */
+.timer-container{
+  width: 30rem;
+  display: flex;
+  flex-direction: row;
+}
